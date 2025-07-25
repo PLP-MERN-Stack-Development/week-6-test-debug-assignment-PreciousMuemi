@@ -14,6 +14,7 @@
     "test:integration": "jest --testPathPattern=tests/integration",
     "test:e2e": "cypress run",
     "test:coverage": "jest --coverage",
+    "test:report": "node scripts/test-report.js",
     "setup-test-db": "cd server && npm run setup-test-db"
   },
   "keywords": ["mern", "testing", "jest", "cypress"],
